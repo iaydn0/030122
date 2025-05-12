@@ -151,7 +151,6 @@ def evaluate_model(model, X_test, y_test):
         'ROC AUC': roc_auc_score(y_test, y_prob)
     }
 
-!pip install ace-tools # Install the ace-tools module.
 
 def display_dataframe_to_user(name, dataframe):
   """Displays a Pandas DataFrame to the user.
